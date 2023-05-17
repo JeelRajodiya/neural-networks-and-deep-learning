@@ -1,5 +1,4 @@
 {
-	"githubPullRequests.ignoredPullRequestBranches": [
-		"master"
-	]
+	"githubPullRequests.ignoredPullRequestBranches": ["master"],
+	"python.analysis.typeCheckingMode": "basic"
 }
