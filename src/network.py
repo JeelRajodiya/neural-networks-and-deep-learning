@@ -65,6 +65,7 @@ class Network(object):
             for mini_batch in mini_batches:
                 self.update_mini_batch(mini_batch, eta)
             time2 = time.time()
+
             if test_data:
                 print("Epoch {0}: {1} / {2}, took {3:.2f} seconds".format(
                     j, self.evaluate(test_data), n_test, time2 - time1))
